@@ -26,7 +26,9 @@ headSelect.addEventListener('change', () => {
 
 middleSelect.addEventListener('change', () => {
     // > set the character middle from the value of the middle <select>
-    // > redisplay the character
+    // > redisplay the character'
+    character.middle = middleSelect.value;
+    displayCharacter();
 });
 
 pantsSelect.addEventListener('change', () => {
