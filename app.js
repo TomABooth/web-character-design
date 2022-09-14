@@ -51,6 +51,7 @@ function displayPhrases() {
 
     for (const phrase of character.phrases) {
         // > create an <li> element
+        const li = document.createElement('li');
         // > set the text of the li to the phrase
         // > append the <li> to the phrases list
     }
