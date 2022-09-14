@@ -34,6 +34,8 @@ middleSelect.addEventListener('change', () => {
 pantsSelect.addEventListener('change', () => {
     // > set the character head from the value of the head <select>
     // > redisplay the character
+    character.pants = pantsSelect.value;
+    displayCharacter();
 });
 
 function displayCharacter() {
